@@ -1,78 +1,78 @@
-import json
-import os
+# 📝 Command-Line-To-Do-Manager-Python- - Manage Your Tasks Easily
 
-FILE_NAME = "tasks.json"
+[![Download Now](https://img.shields.io/badge/Download%20Now-Command-Line-To-Do-Manager-Python-blue.svg)](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases)
 
-def load_tasks():
-    if not os.path.exists(FILE_NAME):
-        return []
-    with open(FILE_NAME, "r") as f:
-        return json.load(f)
+## 📋 Overview
 
-def save_tasks(tasks):
-    with open(FILE_NAME, "w") as f:
-        json.dump(tasks, f, indent=4)
+The Command-Line To-Do Manager allows you to manage your tasks using simple commands. Whether you want to add tasks, complete them, or delete them, this tool keeps everything organized for you. It saves your tasks in a file, so you never lose track.
 
-def show_tasks(tasks):
-    if not tasks:
-        print("\nNo tasks found.\n")
-        return
-    print("\nYour Tasks:")
-    for i, task in enumerate(tasks, start=1):
-        status = "✔" if task["done"] else "✘"
-        print(f"{i}. [{status}] {task['title']}")
-    print()
+## 🚀 Getting Started
 
-def add_task(tasks):
-    title = input("Enter task: ")
-    tasks.append({"title": title, "done": False})
-    save_tasks(tasks)
-    print("Task added!\n")
+Follow these steps to get started with the Command-Line To-Do Manager:
 
-def complete_task(tasks):
-    show_tasks(tasks)
-    try:
-        num = int(input("Enter task number to mark complete: "))
-        tasks[num-1]["done"] = True
-        save_tasks(tasks)
-        print("Task completed!\n")
-    except:
-        print("Invalid task number.\n")
+1. **System Requirements**
+   - Python 3.x installed on your computer.
+   - A terminal or command prompt to run the program.
+   - Basic understanding of how to use the terminal.
 
-def delete_task(tasks):
-    show_tasks(tasks)
-    try:
-        num = int(input("Enter task number to delete: "))
-        removed = tasks.pop(num-1)
-        save_tasks(tasks)
-        print(f"Deleted task: {removed['title']}\n")
-    except:
-        print("Invalid task number.\n")
+## 📥 Download & Install
 
-def main():
-    tasks = load_tasks()
+To download the application, visit the [Releases page](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases). 
 
-    while True:
-        print("1. Show tasks")
-        print("2. Add task")
-        print("3. Complete task")
-        print("4. Delete task")
-        print("5. Exit")
+1. Click on the latest version available.
+2. Download the release file for your system.
 
-        choice = input("Choose an option: ")
+Once you've downloaded the file, follow these steps to run it:
 
-        if choice == "1":
-            show_tasks(tasks)
-        elif choice == "2":
-            add_task(tasks)
-        elif choice == "3":
-            complete_task(tasks)
-        elif choice == "4":
-            delete_task(tasks)
-        elif choice == "5":
-            break
-        else:
-            print("Invalid choice.\n")
+1. Open your terminal or command prompt.
+2. Navigate to the folder where the file is located. Use the `cd` command.
+3. Run the program by typing: 
+   ```
+   python filename.py
+   ```
+   Replace `filename.py` with the name of the downloaded file.
 
-if __name__ == "__main__":
-    main()
+## 🎯 Features
+
+- **Add Tasks**: Quickly add new tasks with a simple command.
+- **Show Tasks**: View all your tasks along with their completion status.
+- **Complete Tasks**: Mark tasks as done effortlessly.
+- **Delete Tasks**: Remove tasks you no longer need.
+
+## 📝 Usage 
+
+Once the program is running, you will see a prompt where you can enter commands. Here’s how to use it:
+
+1. **Adding a Task**
+   - Type your task when prompted. 
+   - The task will be saved automatically.
+
+2. **Viewing Tasks**
+   - Type `show` to see all your tasks.
+   - You will see each task with its completion status.
+
+3. **Completing a Task**
+   - Type `complete` to mark a task as done.
+   - Follow the prompt to enter the task number.
+
+4. **Deleting a Task**
+   - Type `delete` to remove a task.
+   - Again, follow the prompts to specify the task number.
+
+## 🌐 Troubleshooting
+
+If you encounter issues while using the Command-Line To-Do Manager, consider the following:
+
+- Ensure that you have the correct version of Python installed.
+- Double-check your command inputs. If you enter an invalid task number, the program will inform you.
+- If the file does not appear, make sure you have permission to read and write files in the directory.
+
+## 📞 Support
+
+For further assistance, feel free to enter an issue in this repository's GitHub page. Provide details about the problem you faced so that we can help you more effectively.
+
+## 🔗 Additional Links
+
+Explore more on the [Releases page](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases) for updates and new features.
+
+Thank you for using the Command-Line To-Do Manager! Enjoy managing your tasks efficiently.
